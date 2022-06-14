@@ -5,74 +5,92 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+  <script src="https://cdn.tailwindcss.com"></script>
   <title>SRT Formula Wing</title>
 </head>
 
 <body>
 
-  <nav class="flex items-center justify-between flex-wrap bg-black-500 p-5 ml-auto bg-black text-center">
+  <div id="sec1" class="w-full h-[180vh] sm:h-[110vh]  overflow-x-hidden bg-center bg-no-repeat bg-cover"
+    style="background-image:url('images/hero-img.png');">
+    <nav class="flex items-center justify-between flex-wrap bg-black-500 py-2 px-5 ml-auto bg-black text-center">
 
-    <div class="block lg:hidden">
-      <button
-        class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
-        <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-          <title>Menu</title>
-          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-        </svg>
-      </button>
-    </div>
-    <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-      <div class="text-sm lg:flex-grow p-5">
-        <a href="#responsive-header"
-          class="text-xl block mt-4 lg:inline-block lg:mt-0 text-[#ED1B24] hover:text-white mr-4">
-          Home
-        </a>
-        <a href="#responsive-header"
-          class="text-xl block mt-4 lg:inline-block lg:mt-0 text-[#ED1B24] hover:text-white mr-4">
-          About Us
-        </a>
-
-        <a href="#responsive-header"
-          class="text-xl block mt-4 lg:inline-block lg:mt-0 text-[#ED1B24] hover:text-white mr-4">
-          Team
-        </a>
-        <a href="#responsive-header"
-          class="text-xl block mt-4 lg:inline-block lg:mt-0 text-[#ED1B24] hover:text-white mr-4">
-          Events
-        </a>
-        <a href="#responsive-header"
-          class="text-xl block mt-4 lg:inline-block lg:mt-0 text-[#ED1B24] hover:text-white mr-4">
-          Blog
-        </a>
-        <a href="#responsive-header"
-          class="text-xl block mt-4 lg:inline-block lg:mt-0 text-[#ED1B24] hover:text-white mr-4">
-          Sponsors
-        </a>
-        <a href="#responsive-header"
-          class="text-xl block mt-4 lg:inline-block lg:mt-0 text-[#ED1B24] hover:text-white mr-4">
-          Contact Us
-        </a>
+      <div class="block lg:hidden">
+        <button
+          class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <title>Menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+          </svg>
+        </button>
       </div>
+      <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+        <div class="text-sm lg:flex-grow p-5">
+          <a href="#responsive-header"
+            class="text-xl block mt-4 lg:inline-block lg:mt-0 text-[#ED1B24] hover:text-white mr-4">
+            Home
+          </a>
+          <a href="#responsive-header"
+            class="text-xl block mt-4 lg:inline-block lg:mt-0 text-[#ED1B24] hover:text-white mr-4">
+            About Us
+          </a>
 
+          <a href="#responsive-header"
+            class="text-xl block mt-4 lg:inline-block lg:mt-0 text-[#ED1B24] hover:text-white mr-4">
+            Team
+          </a>
+          <a href="#responsive-header"
+            class="text-xl block mt-4 lg:inline-block lg:mt-0 text-[#ED1B24] hover:text-white mr-4">
+            Events
+          </a>
+          <a href="#responsive-header"
+            class="text-xl block mt-4 lg:inline-block lg:mt-0 text-[#ED1B24] hover:text-white mr-4">
+            Blog
+          </a>
+          <a href="#responsive-header"
+            class="text-xl block mt-4 lg:inline-block lg:mt-0 text-[#ED1B24] hover:text-white mr-4">
+            Sponsors
+          </a>
+          <a href="#responsive-header"
+            class="text-xl block mt-4 lg:inline-block lg:mt-0 text-[#ED1B24] hover:text-white mr-4">
+            Contact Us
+          </a>
+        </div>
+
+      </div>
+    </nav>
+    <div class="my-10">
+      <h2 class="text-7xl font-bold text-[#ED1B24] text-left pl-7 sm:text-center italic pt-[5rem]">SASTRA RACING TEAM</h2>
+      <div class="relative flex items-center mx-7 lg:mx-52 py-5">
+        <div class="flex-grow border-t border-white"></div>
+        <div class="text-lg text-white flex justify-center">
+          <span class="flex-shrink mx-5" style="letter-spacing:20px;">FORMULA WING</span>
+        </div>
+        <div class="flex-grow border-t border-white"></div>
+      
+      </div>
     </div>
-  </nav>
-  <div id="sec1">
-    <h2 class="text-5xl font-bold text-[#ED1B24]  text-center italic bg-black">SASTRA RACING TEAM</h2>
-    <!-- <h3 class="">FORMULA WING</h3> -->
-    
   </div>
-  <div id="sec2" class="flex flex-col sm:flex-row justify-end items-end sm:items-start sm:justify-end w-full overflow-x-hidden h-screen " style="background:black;background:url('/images/about-us.png');background-repeat: no-repeat;background-size: cover">
+  <div id="sec2"
+    class="flex flex-col sm:flex-row justify-end items-end sm:items-start sm:justify-end w-full overflow-x-hidden h-screen "
+    style="background:black;background:url('/images/about-us.png');background-repeat: no-repeat;background-size: cover">
     <div class=""></div>
-    <div class="sm:flex sm:flex-col h-full w-[55rem] pt-[10rem] t-0 mb-0 sm:bg-[url('/images/about-us-desktop.png')] bg-[url('/images/about-us-mobile.png')] bg-no-repeat" style="background-size:cover;">
-      <h2 class="text-5xl font-bold font-style:italic text-[#ED1B24] text-left sm:text-center italic ">ABOUT US</h2>
-      <div class="text-end w-[500px]">
-        <p class="text-white text-base pl-10">SASTRA Racing Team is the official automobile racing team of SASTRA Deemed University,
+    <div
+      class="sm:flex sm:flex-col h-full w-[55rem] pt-[10rem] t-0 mb-0 sm:bg-[url('/images/about-us-desktop.png')] bg-[url('/images/about-us-mobile.png')] bg-no-repeat"
+      style="background-size:cover;">
+      <h2 class="text-6xl font-bold font-style:italic text-[#ED1B24] text-left sm:text-center italic ">ABOUT US</h2>
+      <div class="sm:text-start w-[500px] pt-7">
+        <p class="text-white text-xl sm:-mr-40 sm:pl-52">SASTRA Racing Team is the official automobile racing team of SASTRA Deemed
+          University,
           Thanjavur. The Formula Student
-          wing, a team of about 45 passionate automobile enthusiasts, aims at designing and building Formula-style open-wheel
+          wing, a team of about 45 passionate automobile enthusiasts, aims at designing and building Formula-style
+          open-wheel
           race
-          cars from ground up and competing at national-level competitions like Formula Bharat, ESVC, and Supra SAE. After two
-          successful years at Formula Bharat Virtuals and after securing the 2nd place as a rookie team in FB 2022, the team
+          cars from ground up and competing at national-level competitions like Formula Bharat, ESVC, and Supra SAE.
+          After two
+          successful years at Formula Bharat Virtuals and after securing the 2nd place as a rookie team in FB 2022, the
+          team
           has
           now set its sights for the 2023 season with a zeal to win.</p>
       </div>
@@ -103,29 +121,34 @@
   </script> -->
   </div>
   <div class="sec4 p-5">
-    <h2 class="text-3xl text-center sm:text-5xl font-bold font-style:italic text-[#ED1B24] italic py-5 sm:pb-5">ACHIEVEMENTS</h2>
-      <div class="grid grid-cols-4 gap-8 justify-center p-3 sm:p-10">
-        <div>
-          <p class="text-center text-[#ED1B24] text-3xl sm:text-6xl font-bold italic">2<span class="text-xl sm:text-3xl align-top">nd</span></p>
-          <p class="text-center text-black text-[1rem]  sm:text-3xl font-bold italic mt-5">FBV-2021</p>
-          <p class="text-center text-black text-[0.6rem]  sm:text-lg font-bold italic">OVERALL</p>
-        </div>
-        <div>
-          <p class="text-center text-[#ED1B24] text-3xl sm:text-6xl font-bold italic">38<span class="text-xl sm:text-3xl align-top">th</span></p>
-          <p class="text-center text-black text-[1rem]  sm:text-3xl font-bold italic mt-5">FBV-2020</p>
-          <p class="text-center text-black text-[0.6rem] sm:text-lg font-bold italic">OVERALL</p>
-        </div>
-        <div>
-          <p class="text-center text-[#ED1B24] text-3xl sm:text-6xl font-bold italic">3<span class="text-xl sm:text-3xl align-top">rd</span></p>
-          <p class="text-center text-black text-[1rem]  sm:text-3xl font-bold italic mt-5">ESVC-2019</p>
-          <p class="text-center text-black text-[0.6rem] sm:text-lg font-bold italic">OVERALL</p>
-        </div>
-        <div>
-          <p class="text-center text-[#ED1B24] text-3xl sm:text-6xl font-bold italic">4<span class="text-xl sm:text-3xl align-top">th</span></p>
-          <p class="text-center text-black text-[1rem]  sm:text-3xl font-bold italic mt-5">ESVC-2018</p>
-          <p class="text-center text-black text-[0.6rem] sm:text-lg font-bold italic">OVERALL</p>
-        </div>
+    <h2 class="text-3xl text-center sm:text-5xl font-bold font-style:italic text-[#ED1B24] italic py-5 sm:pb-5">
+      ACHIEVEMENTS</h2>
+    <div class="grid grid-cols-4 gap-8 justify-center p-3 sm:p-10">
+      <div>
+        <p class="text-center text-[#ED1B24] text-3xl sm:text-6xl font-bold italic">2<span
+            class="text-xl sm:text-3xl align-top">nd</span></p>
+        <p class="text-center text-black text-[1rem]  sm:text-3xl font-bold italic mt-5">FBV-2021</p>
+        <p class="text-center text-black text-[0.6rem]  sm:text-lg font-bold italic">OVERALL</p>
       </div>
+      <div>
+        <p class="text-center text-[#ED1B24] text-3xl sm:text-6xl font-bold italic">38<span
+            class="text-xl sm:text-3xl align-top">th</span></p>
+        <p class="text-center text-black text-[1rem]  sm:text-3xl font-bold italic mt-5">FBV-2020</p>
+        <p class="text-center text-black text-[0.6rem] sm:text-lg font-bold italic">OVERALL</p>
+      </div>
+      <div>
+        <p class="text-center text-[#ED1B24] text-3xl sm:text-6xl font-bold italic">3<span
+            class="text-xl sm:text-3xl align-top">rd</span></p>
+        <p class="text-center text-black text-[1rem]  sm:text-3xl font-bold italic mt-5">ESVC-2019</p>
+        <p class="text-center text-black text-[0.6rem] sm:text-lg font-bold italic">OVERALL</p>
+      </div>
+      <div>
+        <p class="text-center text-[#ED1B24] text-3xl sm:text-6xl font-bold italic">4<span
+            class="text-xl sm:text-3xl align-top">th</span></p>
+        <p class="text-center text-black text-[1rem]  sm:text-3xl font-bold italic mt-5">ESVC-2018</p>
+        <p class="text-center text-black text-[0.6rem] sm:text-lg font-bold italic">OVERALL</p>
+      </div>
+    </div>
   </div>
   <div class="sec5  bg-[#1F1F1F] py-5">
     <h2 class="text-5xl font-bold font-style:italic text-[#ED1B24]  text-left sm:text-center italic p-5">EVENTS</h2>
@@ -140,7 +163,7 @@
           </h2>
           <p class="pt-3 text-[#BDBDBD] text-sm">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum officia enim repellendus ex, commodi placeat
-            et veritatis excepturi fugit illo.Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            et veritatis excepturi fugit illo.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           </p>
         </div>
       </div>
@@ -154,7 +177,7 @@
           </h2>
           <p class="pt-3 text-[#BDBDBD] text-sm">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum officia enim repellendus ex, commodi placeat
-            et veritatis excepturi fugit illo.Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            et veritatis excepturi fugit illo.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           </p>
         </div>
       </div>
@@ -168,11 +191,11 @@
           </h2>
           <p class="pt-3 text-[#BDBDBD] text-sm">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum officia enim repellendus ex, commodi placeat
-            et veritatis excepturi fugit illo.Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            et veritatis excepturi fugit illo.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           </p>
         </div>
       </div>
-     
+
     </div>
   </div>
   <div class="sec6 ">
