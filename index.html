@@ -73,15 +73,15 @@
     </div>
   </div>
   <div id="sec2"
-    class="flex flex-col sm:flex-row justify-end items-end sm:items-start  w-full overflow-x-hidden h-screen "
-    style="background:black;background:url('/images/about-us.png');background-repeat: no-repeat;background-size:cover">
+    class="flex flex-col sm:flex-row justify-end items-end sm:items-start  w-full overflow-x-hidden h-full md:h-screen "
+    style="background:black;background:url('/images/about-us.png');background-repeat: no-repeat;background-size:contain;overflow-y:hidden;">
     <div class=""></div>
     <div
-      class="flex flex-col h-full pl-40 w-[55rem] pt-[10rem] t-0 mb-0 my-10 sm:bg-[url('/images/about-us-desktop.png')] bg-[url('/images/about-us-mobile.png')] bg-no-repeat "
-      style="background-size:cover;">
+      class="flex flex-col  sm:h-[50vh] md:h-full  pl-40 w-[55rem] pt-[10rem] t-0 mb-0 my-sm-10 sm:bg-[url('/images/about-us-desktop.png')] bg-[url('/images/about-us-mobile.png')] bg-no-repeat "
+      style="background-size:cover;overflow-y:hidden;">
       <h2 class="text-4xl sm:text-6xl font-bold font-style:italic text-[#ED1B24] text-left sm:text-center italic ml-96 lg:ml-0">ABOUT US</h2>
       <div class="sm:text-start w-[500px] pt-7">
-        <p class="text-white text-lg justify-self-end sm:text-xl -mr-40 ml-96 sm:-mr-40 sm:pl-52 lg:ml-0">SASTRA Racing Team is the official automobile racing team of SASTRA Deemed
+        <p class="text-white text-lg justify-self-end sm:text-xl  lg:mb-5 -mr-40 ml-96 sm:-mr-40 sm:pl-52 lg:ml-0">SASTRA Racing Team is the official automobile racing team of SASTRA Deemed
           University,
           Thanjavur. The Formula Student
           wing, a team of about 45 passionate automobile enthusiasts, aims at designing and building Formula-style
@@ -244,7 +244,23 @@
         class="text-3xl text-gray-500">| </span><span class="text-grey text-3xl text-[#ED1B24]">Associate with us</span>
     </h2>
   </div>
-  <div class="footer"></div>
+  <div class="footer relative h-[80vh] lg:h-[80vh] bg-[url('/images/contact-mobile.png')] bg-no-repeat bg-center bg-cover">
+    <div class="flex flex-col gap-2 justify-items-end items-strt absolute inset-x-0 bottom-0 p-5">
+      <img src="images/SRT-logo.png" class="h-[200px] w-[200px] -ml-4" alt="SRT-logo">
+      <p class="text-white text-lg -mt-10">SASTRA racing team,<br/>
+      SASTRA deemed university,<br />
+      thirumalaisamudhram,<br/>
+      thanjavur - 613401,<br/>
+      tamil Nadu, India.</p>
+      <p class="text-xs text-[#828282] mt-3">© 2022 SASTRA racing team - All rights reserved<br/>Designed by Sudarsan & Jitesh | Developed by DCS, SASTRA</p>
+    </div>
+    <div class="footer-icons absolute right-0 top-[50%] pr-5 flex flex-col gap-5">
+      <a href="#"><img src="/images/youtube.png" ></a>
+      <a href="#"><img src="/images/instagram.png" ></a>
+      <a href="#"><img src="/images/twitter.png" ></a>
+      <a href="#"><img src="/images/mail.png" ></a>
+    </div>
+  </div>
 </body>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="./tailwind.config.js"></script>
