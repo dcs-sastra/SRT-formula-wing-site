@@ -244,17 +244,27 @@
         class="text-3xl text-gray-500">| </span><span class="text-grey text-3xl text-[#ED1B24]">Associate with us</span>
     </h2>
   </div>
-  <div class="footer relative h-[80vh] lg:h-[80vh] bg-[url('/images/contact-mobile.png')] bg-no-repeat bg-center bg-cover">
-    <div class="flex flex-col gap-2 justify-items-end items-strt absolute inset-x-0 bottom-0 p-5">
+  <div class="footer relative h-[80vh] lg:h-[80vh] bg-[url('/images/contact-mobile.png')] md:bg-[url('/images/contact-desktop.png')] bg-no-repeat bg-center bg-cover">
+    <div class="flex flex-col gap-2 justify-items-end items-strt absolute inset-x-0 bottom-0 p-5 md:pl-20">
       <img src="images/SRT-logo.png" class="h-[200px] w-[200px] -ml-4" alt="SRT-logo">
-      <p class="text-white text-lg -mt-10">SASTRA racing team,<br/>
+      <div class="hidden md:block">
+        <p class="text-4xl text-white -mt-10 mb-2 pl-5">GET IN TOUCH</p>
+        <div class="footer-icons flex flex-row gap-5 py-5">
+          <br />
+          <a href="#"><img src="/images/youtube.png"></a>
+          <a href="#"><img src="/images/instagram.png"></a>
+          <a href="#"><img src="/images/twitter.png"></a>
+          <a href="#"><img src="/images/mail.png"></a>
+        </div>
+      </div>
+      <p class="text-white text-lg -mt-10 md:mt-5 md:pl-5">SASTRA racing team,<br/>
       SASTRA deemed university,<br />
       thirumalaisamudhram,<br/>
       thanjavur - 613401,<br/>
       tamil Nadu, India.</p>
-      <p class="text-xs text-[#828282] mt-3">© 2022 SASTRA racing team - All rights reserved<br/>Designed by Sudarsan & Jitesh | Developed by DCS, SASTRA</p>
+      <p class="text-xs text-[#828282] mt-3 md:pl-5 md:pt-10">© 2022 SASTRA racing team - All rights reserved<br/>Designed by Sudarsan & Jitesh | Developed by DCS, SASTRA</p>
     </div>
-    <div class="footer-icons absolute right-0 top-[50%] pr-5 flex flex-col gap-5">
+    <div class="footer-icons absolute right-0 top-[50%] pr-5 flex flex-col gap-5 md:hidden">
       <a href="#"><img src="/images/youtube.png" ></a>
       <a href="#"><img src="/images/instagram.png" ></a>
       <a href="#"><img src="/images/twitter.png" ></a>
