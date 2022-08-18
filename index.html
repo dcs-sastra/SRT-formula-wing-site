@@ -14,6 +14,7 @@
   <!-- Swiper's CSS -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>SRT Formula Wing</title>
   <style>
     body, html {
@@ -144,15 +145,16 @@
 
       </div>
     </nav> -->
-    <nav class="flex items-center justify-between flex-wrap py-2 px-5 ml-auto text-center bg-red-600 sm:bg-transparent">
-      <div class="block sm:hidden">
+    <nav class="flex items-center justify-between flex-wrap py-2 px-5 ml-auto text-center sm:bg-transparent">
+      <div class="w-full block sm:hidden grid justify-items-end">
         <button
-          class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
-          onclick="$('#navContent').toggleClass('hidden')">
-          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          class="flex items-center px-3 py-2 text-red-600 text-xl hover:text-white"
+          onclick="$('#sidenav').toggleClass('hidden')">
+          <!-- <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
             <title>Menu</title>
             <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-          </svg>
+          </svg> -->
+          <i class="fa-solid fa-bars-staggered"></i>
         </button>
       </div>
       <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto hidden sm:block" id="navContent">
@@ -190,6 +192,24 @@
 
       </div>
     </nav>
+
+    <aside class="fixed top-0 left-0 w-full bg-[url('images/sidebg.png')] bg-cover bg-center h-full hidden" style="z-index: 2;" id="sidenav">
+      <div class="w-full grid justify-items-end p-5">
+        <button class="bg-transparent mb-3 text-white text-3xl" onclick="$('#sidenav').toggleClass('hidden')">&times;</button>
+      </div>
+      <div class="p-5 text-right text-white hover:text-grey font-semibold text-xl">
+        <ul class="space-y-4">
+          <li><a href="#" class="uppercase">Home</a></li>
+          <li><a href="#" class="uppercase">About us</a></li>
+          <li><a href="#" class="uppercase">Team</a></li>
+          <li><a href="#" class="uppercase">Events</a></li>
+          <li><a href="#" class="uppercase">Blog</a></li>
+          <li><a href="#" class="uppercase">Sponsors</a></li>
+          <li><a href="#" class="uppercase">Contact us</a></li>
+        </ul>
+      </div>
+    </aside>
+
     <div class="my-10 p-4">
       <h2 class="text-7xl font-bold text-[#ED1B24] text-left sm:text-center italic pt-[2rem] heading"  style="letter-spacing:2px">SASTRA RACING TEAM</h2>
       <div class="relative flex items-center lg:mx-64 py-5">
